@@ -1,0 +1,320 @@
+@import url(vegas.css);
+
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3F3E8;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.hero {
+  /*-----------background-image: url('https://anandipaliwal.files.wordpress.com/2015/06/food-table-relisted.jpg');---------*/
+margin-top:-21px;
+    min-height: 390px;
+    border-radius: 4px;
+    color: white;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero p {
+
+    position:relative;
+    top:270px;
+    left:400px !important;
+    font-weight: 100;
+
+}
+.about{
+
+  background-image: url("http://cdn-image.travelandleisure.com/sites/default/files/styles/tnl_redesign_article_landing_page/public/foodie0315-philadelphia.jpg?itok=sV1IN9FY");
+  background-size: cover;
+
+}
+.about p {
+
+  position:relative;
+  top:-20px;
+  left:-20px !important;
+color:white;
+font-size:45px;
+
+
+}
+.about-details{
+  width:50%;
+  margin:0 auto;
+}
+.restaurant .voting {
+	font-size:14px;
+	position: absolute;
+     top: 4.8rem;
+     right: 1.2rem;
+	color: #89959B;
+}
+.restaurant .reviews
+{
+	margin-top:-7px;
+}
+.order.nav>li>a{
+	position:relative;
+	display:block;
+	border-left:0!important;
+	border-right:0!important;
+	border:1px solid #e7e7e7;
+	border-radius:0%;
+    padding:  15px 30px  ;
+    margin:-1px;
+    text-align: center;
+	color: #333;
+
+}
+.book{
+	color: #00aacd!important;
+}
+.order-now{
+    color: #5BA829;
+}
+.icon{
+	height:15px;
+	width:15px;
+
+}
+.price
+{
+	font-size:14px;
+	position:absolute;
+    margin-left: 300px;
+	color:#3C3D3F;
+	margin-right:17px;
+	margin-top:28px;
+}
+
+
+
+
+#app .navbar {
+    color: white;
+    background-color: #cb202d;
+
+}
+
+#app .navbar a {
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+#app .login {
+    background-image: url("https://cdn.vox-cdn.com/thumbor/141CD-t0HOh8qEcNqhoYIs6Bs4w=/0x0:1820x1213/1200x800/filters:focal(759x305:1049x595)/cdn.vox-cdn.com/uploads/chorus_image/image/54470237/DizenGoff24574_LoRes_smaller.1493246682.1493291215.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#app .login-form {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    color:black;
+    padding: 1rem;
+    padding-top: 0;
+    border-radius: 4px;
+font-size:18px;
+}
+input.ng-invalid.ng-dirty {
+            border: 1px solid red;
+
+        }
+		.hero {
+    margin-bottom: 2rem;
+}
+.form-control{
+  color:black!important;
+  font-size:20px;
+}
+.input{
+  background-color:transparent;
+}
+.input::placeholder{
+  color:white;
+}
+.restaurant {
+    background-color: white;
+    position: relative;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 4px;
+}
+
+.rest-wrapper {
+    display: flex;
+    font-family: sans-serif;
+}
+
+.rest-wrapper .image {
+    margin-right: 1rem;
+}
+
+.rest-wrapper .image img {
+    border-radius: 4px;
+}
+
+.rest-wrapper .rest-name {
+    font-size: 24px;
+    color: #cb202d;
+}
+
+.rest-wrapper .rest-category {
+    color: #89959B;
+    text-transform: uppercase;
+}
+
+.rest-wrapper .rest-address {
+    color: #89959B;
+}
+
+.rest-extra {
+    display: flex;
+    margin-top: 1rem;
+    border-top: 1px solid #e7e7e7;
+    padding: 1rem;
+}
+
+.rest-extra .type {
+    text-transform: uppercase;
+     color: #89959B;
+     flex: none;
+     margin-right: 2rem;
+}
+.type1{
+  text-transform: uppercase;
+   color: #89959B;
+   flex: none;
+   margin-right: 2rem;
+   position:relative;
+   left:-130px;
+   top:23px;
+}
+.restaurant .rating {
+    color: white;
+    background-color: #5BA829;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 18px;
+    border-radius: 4px;
+    letter-spacing: 2px;
+}
+
+
+.search-bar {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    position:relative;
+    top:-80px;
+
+
+}
+
+.search-bar form {
+    display: flex;
+    align-items: center;
+}
+.fm{
+  border:none !important;
+
+}
+.search-bar form .input-wrapper {
+   flex: 1;
+   margin-right: 1rem;
+
+}
+.ui{
+
+    width:100%;
+    padding:0;
+
+}
+.btn-clr{
+  background-color:#cb202d;
+  border:none;
+  color:white;
+}
+
+.zo_logo{
+
+    display:block;
+    height:120px;
+    width:120px;
+}
+
+.red{
+        background: #cb202d;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.bestDish .button {
+    display: inline-block;
+    background-color:#cb202d;
+    color: white;
+    padding: 0.4rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#getIngredients-button{
+
+      /*  position: absolute;
+    margin-left: 172px;
+    margin-top: -27px*/
+}
+
+#getIngredients-button2{
+
+ /*       position: absolute;
+        margin-left: 296px;
+        /*margin-top: -27px;*/*/
+}
+
+.list-buttons{
+
+    list-style: none;
+    margin-left: 73px;
+}
+
+.vegnonveg{
+
+        width: 72px;
+        height: 61px;
+        position: absolute;
+        left: 255px;
+        top: 383px;
+}
